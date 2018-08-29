@@ -125,12 +125,15 @@ p{
 .about_box{
     width: 100%;
 }
+#about .about2{
+    opacity: 0;
+}
 #about .about_box{
     
     background: #b74c4c;
     font-size: 25px;
     padding: 100px;
-    color: #ced4e8;
+    color: #ebe8d5;
 }
 #about .about_box h1{
     font-weight: 500;
@@ -191,7 +194,8 @@ p{
     background: #565283;
     padding: 100px;
     font-size: 55px;
-    color: pink;
+    color:#e5ded1;
+    width: 100%;
 }
 #work_content{
     clear: both;
@@ -222,7 +226,7 @@ p{
     background: #19765d;
     padding: 100px;
     font-size: 55px;
-    color: pink;
+    color: #e5ded1;
 }
 
 
@@ -307,7 +311,7 @@ VIEW RESOURCES 1×
 }
 .sns_icon i{
     font-size: 30px;
-    padding: 10p;;
+    padding: 10px;
 }
 
 

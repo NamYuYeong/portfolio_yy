@@ -2,7 +2,7 @@ $(function(){
     // 비쥬얼 영역에 마우스가 올라가면 애니메이션 재생
 // 능력치 그래프 
     $('.about_container').hide();
-	var yoffset = 300;	// 스크로 보정값
+	var yoffset = 500;	// 스크로 보정값
 	var about_top = $('.about_box').offset().top - yoffset;
     console.log(about_top);
 	$(window).on('scroll', function(){
@@ -12,6 +12,11 @@ $(function(){
 		if(win_scroll_top >= about_top){
 			$('.about_box').animate({
                 width:'50%'
+            }, function(){
+                $('#about .about2').animate(
+                {
+                    opacity:1
+                },1000)
             });
             $('.about_container')
 				.slideDown(1500,'swing');
@@ -37,27 +42,25 @@ $(function(){
 	});
 		
 	});
-    var yoffset = 200;	// 스크로 보정값
+    var yoffset = 400;	// 스크로 보정값
 	var about_top = $('#skill').offset().top - yoffset;
 	var header_height = parseInt($('#main_header').css('height'));
 	console.log(header_height);
 
 	
     $('#work_content').hide();
-    var woffset = 200;	// 스크로 보정값
-	var work_top = $('#works').offset().top - woffset;
+    var woffset = 0;	// 스크로 보정값
+	var work_top = $('.work_box').offset().top - woffset;
     console.log(work_top);
 	$(window).on('scroll', function(){
 		var win_scroll_wtop = $(window).scrollTop();
-		
-		
 		if(win_scroll_wtop >= work_top){
 			$('.work_box').animate({
                 width:'50%',
+            },function(){
+                $('#work_content').slideDown(1500,'swing')
+                
             });
-            
-            $('#work_content')
-				.slideDown(1500,'swing');
         }
 		
 	});
