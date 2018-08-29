@@ -119,7 +119,6 @@ p{
     background: #ede6e6;
     margin-top: 40px;
     position: relative;
-    padding-top: 40px;
     padding-bottom: 40px;
 }
 .about_box{
@@ -185,8 +184,9 @@ p{
 /* 작품소개 */
  
 #works{
+    padding-bottom: 30px;
     color: white;
-    background: #ffffff;
+    background: #d0ccd4;
 }
 #works .work_box{
     font-weight: 500;
@@ -413,6 +413,10 @@ VIEW RESOURCES 1×
     .mobile_about{
         display: none;
     }
+    #works{
+    border-bottom:10px solid #fc6e6e;
+    border-top: 10px solid #fc6e6e;
+    }
    #works li a img{
     width: 500px;
     height: 350px;
@@ -434,6 +438,8 @@ VIEW RESOURCES 1×
     }
     
     #contect{
+        border-bottom:10px solid #5c4280;
+        border-top: 10px solid #5c4280;
         height: 800px;
     }
     #contect{
