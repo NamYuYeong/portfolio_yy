@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Responsive Portfolio Layout</title>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</head>
+<body>
+    
+    <header id="visual">
+        <div class="container">
+        <nav id="main_gnb">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#works">works</a></li>
+                <li><a href="#contect">contect</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="visual_txt">
+           <div class="line">
+            <h1>" YU-YEONG" </h1>
+            <h2>PORTFOLIO</h2>
+            </div>
+        </div>
+        <a href="#works" class="cta">click</a>
+    </header>
+    
+    <div id="about">
+        
+        <h2 class="mobile_text">About Me</h2>
+        <div class="about_box"><h1>About Me</h1></div>
+        <section class="about_container">
+           
+            <div class="col-1">
+                <a class="about2" href="#">
+                <img src="images/about2.png" alt="about">
+                 </a>
+                <div class="mobile_about">
+                <img src="images/about.png" alt="about">
+                <p>남유영 (Nam Yu yeong) 
+                <br>
+                1997 .05 .07
+                <br>
+                유한대학교<br>
+                전자정보과 임베디드 응용전공<br>
+                화곡 더조은 아카데미 <br>
+                빅데이터 시각화 프론트엔드 개발자과정 수료
+               </p>
+                </div>
+               
+            </div>
+            <div id="skill">
+		<h1>My Skills</h1>
+		<article class="container">
+			<div class="col-1">
+				<ul class="skill_list">
+					<li><span class="bar"></span><b>Photoshop</b></li>
+					<li><span class="bar"></span><b>Illustrator</b></li>
+					<li><span class="bar"></span><b>html5</b></li>
+					<li><span class="bar"></span><b>CSS3</b></li>
+					<li><span class="bar"></span><b>JavaScript &amp; jQuery</b></li>
+					<li><span class="bar"></span><b>Data Visualization(R)</b></li>
+					
+					
+				</ul>
+			</div>		
+			
+		</article>
+	</div>
+           
+        </section>
+        
+    </div>
+    
+    
+    <section id="works">
+       <h1 class="work_box">MY Works</h1>
+        <h2 class="mobile_text">MY Works</h2>
+       <div id="work_content">
+               <ul class="work_list container">
+                <li class="col">
+                 <div class="contents_title">
+                  <a href="sub1.html"  target="_blank">
+                      <img src="images/w_banner1.png" alt="banner1">
+                       
+                  </a>
+                  </div>
+                </li>
+                 <li class="col">
+                 <div class="contents_title">
+                  <a href="sub2.html"  target="_blank">
+                      <img src="images/w_banner2.png" alt="banner1">
+                      
+                        
+                  </a>
+                     </div>
+                </li>
+                <li class="col">
+                 <div class="contents_title">
+                  <a href="sub3.html" target="_blank">
+                      <img src="images/w_banner4.png" alt="banner1">
+                       
+                        
+                  </a>
+                    </div>
+                </li>
+                 <li class="col">
+                 <div class="contents_title">
+                  <a href="sub4.html" target="_blank">
+                      <img src="images/w_banner3.png" alt="banner1" >
+                      
+                        
+                  </a>
+                     </div>
+                </li>
+                </ul>
+        </div>
+    </section>
+    
+    <section id="contect">
+          <h1 class="contect_box">contect</h1>
+        <h2 class="mobile_text">MY contect</h2>
+         <nav class="sns">
+            <ul class="sns_list container">
+                <li class="col-3">
+                  <a href="#">
+                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front">
+                       <img src="images/call.png" alt="">
+                        <!-- front content -->
+                    </div>
+                    <div class="back">
+                        <!-- back content -->
+                        <img src="images/call_2.png" alt="">
+                    </div>
+                </div>
+</div>
+
+                 </a>
+                </li>
+               
+            <li class="col-3">
+                      <a href="#">
+                      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front">
+                       <img src="images/email-1.png" alt="">
+                        <!-- front content -->
+                    </div>
+                    <div class="back">
+                        <!-- back content -->
+                        <img src="images/email-2.png" alt="">
+                    </div>
+                    </div>
+                </div>
+                    
+                     </a>
+                 </li>
+                  <li class="col-3">
+                      <a href="#">
+                      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front">
+                       <img src="images/Katalk.png" alt="">
+                        <!-- front content -->
+                    </div>
+                    <div class="back">
+                        <!-- back content -->
+                        <img src="images/Katalk2.png" alt="">
+                    </div>
+                    </div>
+                </div>
+                    </a>
+                </li>
+                
+            </ul>
+        </nav>
+    </section>
+    
+    
+    <footer id="main_footer">
+          <a href="#">
+           <div id="to_top"> 
+            <i class="fas fa-angle-double-up"></i>
+        </div>
+        </a>
+        <div class="copy">
+            <p>Copyright&copy; 2018남유영</p>
+            <div class="sns_icon">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
