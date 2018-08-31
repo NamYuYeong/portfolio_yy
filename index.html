@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Responsive Portfolio Layout</title>
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome-animation.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
@@ -15,35 +16,31 @@
     
     <header id="visual">
         <div class="container">
-        <nav id="main_gnb">
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#works">works</a></li>
-                <li><a href="#contect">contect</a></li>
-            </ul>
-        </nav>
-        </div>
-        <div class="visual_txt">
-           <div class="line">
-            <h1>" YU-YEONG" </h1>
-            <h2>PORTFOLIO</h2>
+            <nav id="main_gnb">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#works">works</a></li>
+                    <li><a href="#contect">contect</a></li>
+                </ul>
+            </nav>
+             <div class="visual_txt">
+               <div class="line">
+                <h1>" YU-YEONG" </h1>
+                <h2>PORTFOLIO</h2>
+                </div>
+                  
             </div>
+           <a href="#works" class="cta"><i class="fas fa-angle-double-down faa-bounce animated"></i></a>  
         </div>
-        <a href="#works" class="cta">click</a>
+       
+     
     </header>
     
     <div id="about">
         
-        <h2 class="mobile_text">About Me</h2>
-        <div class="about_box"><h1>About Me</h1></div>
-        <section class="about_container">
-           
-            <div class="col-1">
-                <a class="about2" href="#">
-                <img src="images/about2.png" alt="about">
-                 </a>
-                <div class="mobile_about">
+        <div class="mobile_about">
+               <h2 class="mobile_text">About Me</h2>
                 <img src="images/about.png" alt="about">
                 <p>남유영 (Nam Yu yeong) 
                 <br>
@@ -54,11 +51,28 @@
                 화곡 더조은 아카데미 <br>
                 빅데이터 시각화 프론트엔드 개발자과정 수료
                </p>
-                </div>
+               <br>
+               <h2>Skill</h2>
+               <p>Ps - 70%</p>
+               <p>Ai - 70%</p>
+               <p>Html - 70%</p>
+               <p>Css - 60%</p>
+               <p>javascript &amp; Jquery - 50%</p>
                
+                </div>
+        <div class="about_box"><h1>About Me</h1></div>
+        <section class="about_container">
+           
+            <div class="col-1">
+                <a class="about2" href="#">
+                <img src="images/about2.png" alt="about">
+                 </a>
             </div>
-            <div id="skill">
-		<h1>My Skills</h1>
+           
+           
+        </section>
+         <div id="skill">
+                <div class="skill_box"><h1>My Skills</h1></div>
 		<article class="container">
 			<div class="col-1">
 				<ul class="skill_list">
@@ -75,9 +89,6 @@
 			
 		</article>
 	</div>
-           
-        </section>
-        
     </div>
     
     
@@ -143,8 +154,7 @@
                         <img src="images/call_2.png" alt="">
                     </div>
                 </div>
-</div>
-
+                </div>
                  </a>
                 </li>
                
@@ -162,7 +172,7 @@
                     </div>
                     </div>
                 </div>
-                    
+                     
                      </a>
                  </li>
                   <li class="col-3">
@@ -181,16 +191,24 @@
                 </div>
                     </a>
                 </li>
-                
+            </ul>
+        </nav>
+        <nav class="mobile_contect">
+            <ul>
+               
+                   <li class="col-3"><img src="images/call_2.png" alt=""></li>
+                    <li class="col-3"><img src="images/email-2.png" alt=""></li>
+                    <li class="col-3"><img src="images/Katalk2.png" alt=""></li>
             </ul>
         </nav>
     </section>
     
     
+    
     <footer id="main_footer">
           <a href="#">
            <div id="to_top"> 
-            <i class="fas fa-angle-double-up"></i>
+            <i class="fas fa-angle-double-up faa-bounce animated"></i>
         </div>
         </a>
         <div class="copy">
