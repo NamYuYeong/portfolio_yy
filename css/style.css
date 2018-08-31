@@ -306,8 +306,24 @@ p{
 		padding: 0 10px;
 	}
 	#visual{
-		height: 800px;;
+		height: 800px;
 	}	
+     
+    .visual_txt2 .line2{
+        margin-top: 50px;
+        border-bottom:15px solid #fff;
+        border-top: 15px solid #fff;
+        padding: 150px;
+        font-size: 20px;
+        font-weight: 700;
+        
+    }
+  
+    .visual_txt .line{
+        display: none;
+        
+        
+    }
     #about .mobile_text{
     background: #b74c4c;
     font-size: 25px;
@@ -372,10 +388,7 @@ p{
     }
     
     
-    .visual_txt .line{
-    border-bottom:15px solid #fff;
-    border-top: 15px solid #fff;
-    }
+   
 #contect .col-3{
     width: 100%;
     }
@@ -405,6 +418,10 @@ p{
     .col-4{
         width: 25%;
         float: left;
+    }
+    .visual_txt2{
+        display: none;
+        
     }
 /*
     .visual_txt .line{
