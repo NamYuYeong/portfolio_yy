@@ -80,26 +80,7 @@ p{
     background-attachment: fixed;
     
 }
-#visual .visual_txt{
-/*    border: 10px solid yellow;*/
-    position: absolute;
-    left: 50%; top: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-weight: 700;
-}
-#visual .visual_txt{
-    text-shadow: 5px 0px 5px #743333; 
-    /* 애니메이션 설정 */
-    
-}
-   .visual_txt .line{
-    width: 800px;
-    border-bottom:15px solid #fc6e6e;
-    border-top: 15px solid #fc6e6e;
-    padding: 130px;
-       
-}
+
     #about{
     border-top: 10px solid #f4a208;
     border-bottom: 10px solid  #f4a208; 
@@ -308,6 +289,11 @@ p{
 	#visual{
 		height: 800px;
 	}	
+    .visual_txt2{
+        position: absolute;
+        left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    }
      
     .visual_txt2 .line2{
         margin-top: 90px;
@@ -315,10 +301,12 @@ p{
         border-top: 15px solid #fff;
         padding: 100px;
         font-size: 30px;
+        text-align: center;
         
     }
     .visual_txt2 .line2 h1{
-        font-weight: 700;
+        text-align: center;
+        font-weight: 500;
     }
   
     .visual_txt .line{
@@ -421,6 +409,26 @@ p{
         width: 25%;
         float: left;
     }
+    #visual .visual_txt{
+/*    border: 10px solid yellow;*/
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 700;
+}
+#visual .visual_txt{
+    text-shadow: 5px 0px 5px #743333; 
+    /* 애니메이션 설정 */
+    
+}
+   .visual_txt .line{
+    width: 800px;
+    border-bottom:15px solid #fc6e6e;
+    border-top: 15px solid #fc6e6e;
+    padding: 130px;
+       
+}
     .visual_txt2 .line2{
         display: none;
         
