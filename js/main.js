@@ -2,8 +2,8 @@ $(function(){
     // 비쥬얼 영역에 마우스가 올라가면 애니메이션 재생
 // 능력치 그래프 
     $('.about_container').hide();
-	var yoffset = 0;	// 스크로 보정값
-	var about_top = $('.about_box').offset().top - yoffset;
+	var yoffset = 500;	// 스크로 보정값
+	var about_top = $('#about').offset().top - yoffset;
     console.log(about_top);
 	$(window).on('scroll', function(){
 		var win_scroll_top = $(window).scrollTop();
@@ -20,37 +20,37 @@ $(function(){
             });
             $('.about_container')
 				.slideDown(1500,'swing');
-        };
+        }
+        	});
+    
+    var soffset = 200;	// 스크로 보정값
+	var skill_top = $('#skill').offset().top - soffset;
+	var header_height = parseInt($('#main_header').css('height'));
+	console.log(header_height);
         $(window).on('scroll', function(){
-		var win_scroll_top = $(window).scrollTop();
+		var win_scroll_s_top = $(window).scrollTop();
 		var point = [70, 70, 80, 70, 50, 50];
 		
 		// #skill 섹션에 도달하면 그래프 애니메이션 시작
-		if(win_scroll_top >= about_top){
+		if(win_scroll_s_top >= skill_top){
 			for(var i = 0; i < 6; i++){
 				$('#skill .skill_list span')
 					.eq(i)
 					.animate({width: point[i]+'%'});
 			}	
 		}
-		console.log(win_scroll_top);
-		if(win_scroll_top >= header_height){
+		console.log(win_scroll_s_top);
+		if(win_scroll_s_top >= header_height){
 			$('#main_gnb').addClass('fixed');
 		} else{
 			$('#main_gnb').removeClass('fixed');
 		}
 	});
 		
-	});
-    var yoffset = 0;	// 스크로 보정값
-	var about_top = $('#skill').offset().top - yoffset;
-	var header_height = parseInt($('#main_header').css('height'));
-	console.log(header_height);
 
-	
     $('#work_content').hide();
-    var woffset = 0;	// 스크로 보정값
-	var work_top = $('.work_box').offset().top - woffset;
+    var woffset = 200;	// 스크로 보정값
+	var work_top = $('#works').offset().top - woffset;
     console.log(work_top);
 	$(window).on('scroll', function(){
 		var win_scroll_wtop = $(window).scrollTop();
@@ -58,7 +58,7 @@ $(function(){
 			$('.work_box').animate({
                 width:'50%',
             },function(){
-                $('#work_content').slideDown(1500,'swing')
+                $('#work_content').slideDown(1500,'swing');
                 
             });
         }
