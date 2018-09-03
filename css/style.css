@@ -236,7 +236,7 @@ p{
 
 /********works 끝******/
 
-#contect{
+#contact{
     background: rgb(235, 239, 242);
 }
 
@@ -361,26 +361,26 @@ p{
     #works .col img{
         width: 85%;
     }
-    #contect .contect_box{
+    #contact .contact_box{
     display: none;
 }
-    #contect .mobile_text{
+    #contact .mobile_text{
     margin-bottom: 70px;
     background: #19765d;
     font-size: 25px;
     padding: 100px;
     color: #ebe8d5;
     }
-    #contect ul .col-3 img{
+    #contact ul .col-3 img{
         width: 220px;
     }
-    #contect ul .col-3{
+    #contact ul .col-3{
         padding-bottom:10px; 
     }
     
     
    
-#contect .col-3{
+#contact .col-3{
     width: 100%;
     }
 
@@ -468,7 +468,7 @@ p{
         font-size: 20px;
     }
    
-    .mobile_contect{
+    .mobile_contact{
         display: none;
     }
 
@@ -518,7 +518,7 @@ VIEW RESOURCES 1×
  RERUN
    
 }
-#contect .contect_box{
+#contact .contact_box{
     font-weight: 500;
     background: #19765d;
     padding: 100px;
@@ -528,17 +528,17 @@ VIEW RESOURCES 1×
 }
 
     /* front pane, placed above back */
-    .contect_box{
+    .contact_box{
         margin-bottom: 130px;
         padding-top: 20px;
     }
     
-    #contect{
+    #contact{
         padding-bottom: 50px;
         border-bottom:10px solid #5c4280;
         border-top: 10px solid #5c4280;
     }
-#contect .mobile_text{
+#contact .mobile_text{
     
 }
 
@@ -546,7 +546,7 @@ VIEW RESOURCES 1×
     margin-left: 120px;
 }
 /*
-    #contect .contect_box{
+    #contact .contact_box{
         border-top: 10px solid #f4a208;
         border-bottom: 10px solid #f4a208;
     }
