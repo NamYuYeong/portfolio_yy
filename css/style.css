@@ -449,7 +449,7 @@ p{
     }
 */
     .mobile_text{
-        display: none;
+        display: none; !important
     }
     .mobile_about{
         display: none;
@@ -468,7 +468,7 @@ p{
         font-size: 20px;
     }
    
-    .mobile_contact{
+    #contact .mobile_contact{
         display: none;
     }
 
