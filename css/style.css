@@ -371,22 +371,11 @@ p{
     padding: 100px;
     color: #ebe8d5;
     }
-    #contact ul .col-3 img{
-        width: 220px;
-    }
-    #contact ul .col-3{
-        padding-bottom:10px; 
-    }
-    
-    
-   
-#contact .col-3{
-    width: 100%;
-    }
-
-    .flipper{
+    #contact .sns{
         display: none;
     }
+    
+    
 }
 /*중간크기 이상(컬럼이 형성)*/
 @media (min-width:768px){
@@ -472,52 +461,9 @@ p{
         display: none;
     }
 
- .flip-container {
-   perspective: 1000px;
-   border:2px solid rgba(0,0,0,0) !important;
-}
+ 
 
-/* front pane, placed above back */
-.front{
-  z-index:2;
-  /* for firefox 31 */
-  transform: rotateY(0deg);
-  background-size:100% 100%;
-}
-/* back, initially hidden pane */
-.back {
-    transform: rotateY(180deg);
-    background-size:100% 100%;
-}
 
-/* flip the pane when hovered */
-.flip-container:hover .flipper, .flip-container.hover .flipper {
-    transform: rotateY(180deg);
-}
-
-.flip-container, .front, .back {
-    width: 250px;
-    height: 200px;
-   /*border:1px solid lightgray;*/
-}
-/* flip speed goes here */
-.flipper {
-    transition: 0.6s;
-   /* 하위요소에 3D 좌표값 지정 */
-    transform-style: preserve-3d;
-    position: relative;
-}
-/* hide back of pane during swap */
-.front, .back{
-  position: absolute;
-  backface-visibility:hidden;
-}
-VIEW RESOURCES 1×
-0.5×
-0.25×
- RERUN
-   
-}
 #contact .contact_box{
     font-weight: 500;
     background: #19765d;
@@ -538,13 +484,21 @@ VIEW RESOURCES 1×
         border-bottom:10px solid #5c4280;
         border-top: 10px solid #5c4280;
     }
-#contact .mobile_text{
-    
+    #contact .sns .col-1{
+        padding-bottom: 20px;
+    }
+    .col-3 .small{
+        font-size: 15px;
+    }
+.phone{
+    font-size: 30px;
 }
-
-.sns{
-    margin-left: 120px;
+.email{
+    font-size: 30px;
 }
+.talk{
+    font-size: 30px;
+}    
 /*
     #contact .contact_box{
         border-top: 10px solid #f4a208;
