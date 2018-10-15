@@ -6,21 +6,11 @@ a{
         body{
             color: white;
         }
-         #sub_container1{
-            text-align: center;
-            margin-top: 35px;
-            padding: 130px;
-            border: 10px solid #fff;
-            height: 100%;
-           
-        }
+     
       
 #sub_container4{
             text-align: center;
-           margin-top: 35px;
-            padding: 130px;
-            border: 10px solid #fff;
-            height: 100%;
+            padding: 200px;
            
         }
         #sub_container4 .pg4 img{
