@@ -484,10 +484,14 @@ p{
         border-bottom:10px solid #5c4280;
         border-top: 10px solid #5c4280;
     }
+    .sns{
+        margin: 0 auto;
+        width: 800px;
+    }
     #contact .sns .col-1{
         padding-bottom: 20px;
     }
-    .col-3 .small{
+    .col-1 .small{
         font-size: 15px;
     }
 .phone{
